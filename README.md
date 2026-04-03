@@ -1,6 +1,6 @@
 # xv6 Shell & Kernel Extensions
 
-A custom Unix-style shell and kernel-level extensions built for [xv6-riscv](https://github.com/mit-pdos/xv6-riscv), a minimal RISC-V teaching operating system modeled after Unix v6. Implemented as part of **CS 143A: Principles of Operating Systems** at UC Irvine.
+A custom Unix-style shell and kernel-level extensions built for [xv6-riscv](https://github.com/mit-pdos/xv6-riscv), a minimal RISC-V teaching operating system modeled after Unix v6.
 
 > **Note:** This repo contains only the files I authored or modified. To run this project, overlay these files onto a clean clone of [xv6-riscv](https://github.com/mit-pdos/xv6-riscv).
 
