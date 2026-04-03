@@ -14,7 +14,7 @@ A fully functional shell for xv6, built from scratch. It replaces the default xv
 
 **Features:**
 
-- **Prompt & REPL loop** — Displays `cs143a$` and reads commands in a loop; exits cleanly on `Ctrl+D` with a `bye` message
+- **Prompt & REPL loop** — Displays `abe$` and reads commands in a loop; exits cleanly on `Ctrl+D` with a `bye` message
 - **Command parsing** — Tokenizes input according to a formal EBNF grammar, trimming leading/trailing whitespace
 - **Fallback path resolution** — If a bare command name (e.g. `ls`) isn't found in the current directory, the shell automatically searches `/`, mimicking how `$PATH` works in real shells
 - **Built-in commands:**
@@ -29,13 +29,13 @@ A fully functional shell for xv6, built from scratch. It replaces the default xv
 **Example session:**
 
 ``` bash
-cs143a$ echo hello | grep h | wc
+abe$ echo hello | grep h | wc
       1       1       6
-cs143a$ ls | grep m | wc > count
-cs143a$ cat count
+abe$ ls | grep m | wc > count
+abe$ cat count
 4 16 104
-cs143a$ about > aboutfile
-cs143a$ exit 0
+abe$ about > aboutfile
+abe$ exit 0
 bye
 ```
 
